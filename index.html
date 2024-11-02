@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="syle.css">
+    <title>gallery</title>
+    </head>
+
+    <body>
+        <header>
+        <h1>gallery</h1>
+        </header>
+
+        <section class="filter">
+            <button data ="all" class="filter-btn-active">all</button>
+            <button data ="landscape" class="filter-btn">landscape</button>
+            <button data ="painting" class="filter-btn">painting</button>
+            
+
+        </section>
+
+        <section class="gallery">
+            <div class="gallery-item" data ="landscape"><img src="https://img.freepik.com/free-photo/beautiful-natural-view-landscape_23-2150787996.jpg"></div>
+            <div class="gallery-item" data ="landscape"><img src="https://i.ytimg.com/vi/eQSeVUEm_Wo/maxresdefault.jpg" ></div>
+            <div class="gallery-item" data ="painting"><img src="https://i.pinimg.com/736x/30/bd/30/30bd305435ffc7b42ff7991f61ab2f30.jpg"></div>
+            <div class="gallery-item" data ="painting"><img src="https://shirleyrosecockburn.com/cdn/shop/files/1519_Northern_Trees_1-24_0ebd6eb0-73fc-48f7-95ce-5af2845a1d70_2048x.jpg?v=1720060876"></div>
+        </section>
+
+        <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img">
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+
+
+    </body>
+    </html>
